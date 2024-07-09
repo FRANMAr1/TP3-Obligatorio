@@ -1,4 +1,6 @@
 /* style.css */
+
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -49,6 +51,32 @@ section {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-juego {
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    margin: 10px 0;
+}
+
+/* Estilos específicos para datos curiosos */
+.datos-curiosos p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin: 10px 0;
+}
+
+.datos-curiosos p strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.datos-curiosos {
+    background-color: #f9f9f9;
+    border-left: 5px solid #333;
+    padding: 15px;
+    margin: 20px 0;
 }
 
 footer {
